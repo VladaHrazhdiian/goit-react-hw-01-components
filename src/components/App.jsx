@@ -3,8 +3,7 @@ import Profile from "./Profile/Profile";
 import user from '../data/user.json';
 
 export function App() {
-  document.title = 'Homework 1';
-  return (
+    return (
     <>
       <Profile
         username={user.username}
