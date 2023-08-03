@@ -5,7 +5,7 @@ export const ProfileCard = styled.div`
   width: 300px;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 4px 6px rgba(0, 0, 0, 0.5);
   background-color: lightsteelblue;
 `;
 
@@ -22,7 +22,7 @@ export const AvatarWrapper = styled.div`
   width: 120px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 2px 6px rgba(0, 0, 0, 0.5);
 `;
 
 export const Avatar = styled.img`
@@ -62,9 +62,9 @@ export const StatsItem = styled.li`
   background-color: #f3f3f3;
   text-align: center;
 
-  border-top: 1px solid #d3d3d3;
+  border-top: 2px solid #d3d3d3;
   &:not(:last-child) {
-    border-right: 1px solid #d3d3d3;
+    border-right: 2px solid #d3d3d3;
   }
 `;
 
@@ -74,5 +74,5 @@ export const Label = styled.span`
 `;
 
 export const Quantity = styled.span`
-  font-weight: 500;
+  font-weight: 400;
 `;
